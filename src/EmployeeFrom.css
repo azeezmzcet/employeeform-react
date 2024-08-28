@@ -1,0 +1,38 @@
+.employee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.submit-button {
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .employee-form {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .form-group {
+    gap: 15px;
+  }
+
+  .submit-button {
+    width: 100%;
+    justify-content: center;
+  }
+}

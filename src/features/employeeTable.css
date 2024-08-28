@@ -1,0 +1,40 @@
+.one {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .one th, .one td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .one th {
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+  }
+  
+  .one tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .one td {
+    text-align: center;
+  }
+  
+  .one .MuiButton-root {
+    margin: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .one {
+      font-size: 14px;
+    }
+  
+    .one th, .one td {
+      padding: 8px;
+    }
+  }
+  
